@@ -2,13 +2,10 @@ if (process.env.NODE_ENV!== "production"){
     // if we are in dev mode, take the credentials in the .env file and make it accessable 
     require('dotenv').config()
 }
-
-
 const dbUrl = 'mongodb://localhost:27017/yelp' // process.env.DB_URL;
 
 console.log(process.env.CLOUDINARY_KEY)
 const mongoSanitize = require('express-mongo-sanitize');
-
 const express = require('express');
 const app = express();
 const path = require('path')

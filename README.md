@@ -1,5 +1,5 @@
 # yelpCamp
-## implementation of a web applictaion named yelpCamp. 
+## Implementation of a web applictaion named yelpCamp. 
 
-## run: 
+## how to run: 
 node app.js
